@@ -1,0 +1,809 @@
+/*Sets the padding and margin of the whole page to 0*/
+*{
+   padding: 0px;
+    margin: 0px;
+}
+
+/*hides horizontal scroll bar*/
+body
+{
+    overflow-x: hidden;
+}
+
+/*Header Styling*/
+header
+{
+    height: 120px;
+    display: flex;
+    background-color: #2f67b2;
+    color: white;
+    padding: 0px 100px 0px 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+header li a:hover
+{
+    color: orange;
+}
+
+header .customer_service
+{
+    width: 35%;
+    float: left;
+}
+
+header .customer_service p
+{
+    width: auto;
+      
+}
+
+header .customer_service p:first-child
+{
+    font-size: 25px;
+}
+
+header .customer_service p:last-child
+{
+    letter-spacing: 3px;
+}
+
+header .customer_service, ul
+{
+    margin: 60px 0px 0px 0px;
+}
+
+header .dropdown
+{
+    width: 25%; 
+}
+
+header .dropdown, .status
+{
+    margin-top: 80px;
+}
+
+header .status
+{
+    width: 20%;
+    list-style: none;
+}
+
+header .status a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header select
+{
+    height: 25px;
+    width: 70px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    box-shadow: 0 5px 10px;
+}
+
+header ul
+{
+    width: 20%;
+}
+
+header ul li
+{
+    list-style: none;
+}
+
+header ul li a
+{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header ul li .a
+{
+    font-size: 18px;
+}
+
+/*Sub Head Styling*/
+.sub_head
+{
+    height: 230px;
+    padding: 0px 100px 0px 100px;
+    display: flex;
+}
+
+.sub_head .book
+{
+    float: left;    
+    margin: 152px 0px 0px 20px;    
+    width: 20%;         
+}
+
+.sub_head .book a 
+{
+    
+    height: 37px;     
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: #06bceb;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sub_head .book a:hover
+{
+    color: orange;
+}
+
+.sub_head .book .fa
+{
+    margin-right: 5px;
+}
+
+.sub_head img
+{
+    float: left;
+    margin-top: 90px;
+    width: 25%;
+}
+
+.sub_head input
+{
+    height: 35px;
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 0px 20px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.sub_head .search
+{
+    border: 1px solid orange;
+    height: 36px;    
+    padding: 5px 20px 0px 10px;
+    float: left;
+    margin: 150px 0px 0px 80px;
+    width: 45%;
+}
+
+.sub_head .search .fa
+{
+    color: gray;
+    font-size: 27px;
+    height: 33px;
+    float: left;
+}
+
+/*Navigation Styling*/
+nav
+{
+    padding: 0px 100px 0px 100px;
+    display: flex;
+}
+
+nav li
+{
+    list-style: none;
+    width: 20%;   
+    margin-right: 2px;
+}
+
+nav li:last-child
+{
+    margin-right: 0px;
+}
+
+nav li a 
+{
+    text-decoration: none;
+    background-color: #f6821f;
+    color: white;    
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    font-family: Arial;
+}
+
+nav li a:hover
+{
+    color: white;
+    background-color: rgb(240, 171, 42);
+}
+
+/*Image Bar 1 Styling*/
+.img_bar1
+{
+    display: flex;
+    padding: 0px 100px 0px 100px;
+}
+
+.img1
+{
+    width: 80%;
+    background-image: url("Audi.jpg");
+    background-size: cover;
+    height: 720px;
+    background-repeat: no-repeat;
+}
+
+.gray
+{
+    width: 20%;
+    height: 720px;
+    background-color: #999999;
+}
+
+.img1 .text
+{
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left;
+    margin: 70px 0px 0px 100px;    
+    font-size: 130px; 
+    display: flex;
+}
+
+.img1 .text a
+{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    background-color: #f6821f;
+    padding: 1px 17px 1px 17px;
+    margin-left: 0px;
+    float: left;
+}
+
+.img1 .text a:hover
+{
+    color: #f6821f;
+    background-color: white;
+}
+
+.img1 .text p 
+{
+    line-height: 60px;
+    font-weight: bold;   
+}
+
+.img1 .text .span2
+{
+    color: white;
+    float: left;
+    margin-left: 14px;
+    font-size: 184px;
+    font-family: Chairdrobe Light;
+}
+
+
+.img1 .text span 
+{
+    color: #f6821f;
+    letter-spacing: 12px;
+    font-family: Chairdrobe;
+    font-size: 170px;
+}
+/*trip advisor styling*/
+.trip_advisor
+{
+    border: 2px solid #02a880;
+    font-size: 20px;
+    float: right;
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+    font-family: Calibri;
+    margin-top: 60px;
+}
+/*Table header stylin'*/
+.trip_advisor .header
+{
+    display: flex;
+}
+
+.trip_advisor table th
+{
+    width: 400px;
+    border-bottom: 2.5px solid lightgray;
+    padding: 4px;
+    padding-bottom: 10px;
+}
+
+.trip_advisor table th .header p
+{
+    font-family: Frutiger;
+    font-size: 45px;
+    color: black;
+}
+
+.trip_advisor table th .header p sup
+{
+    font-size: 15px;
+}
+
+.trip_advisor table th img
+{
+    height: 40px;
+    margin-top: 9px;
+}
+
+.trip_advisor table th p
+{
+    color: gray;
+    text-align: left; 
+    font-family: Calibri;
+    margin-top: 4px;
+}
+
+.trip_advisor span
+{
+    color: #02a880;
+}
+
+/*Table data syling*/
+table tr td
+{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid lightgray;
+}
+
+table tr td h1
+{
+    text-decoration: underline;
+    font-size: 29px;
+}
+
+table tr td p:first-of-type
+{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Frutiger;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 5px;
+}
+table tr td p:last-of-type
+{
+    color: gray;
+}
+/*Circles Styling*/
+table tr td .circle_main
+{
+    display: flex;
+}
+
+table tr td .circles
+{
+    width: 15px;
+    height: 15px;
+    border: 3px solid #02a880;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+table tr td .circles .sub_circles
+{
+    width: 10px;
+    height: 10px;
+    background-color: #02a880;
+    border-radius: 50%;
+    margin: 2.6px auto 0px auto;
+}
+
+/*Third row styling*/
+table tr:nth-child(3) p:nth-child(1)
+{
+    margin-bottom: 5px;
+}
+
+table tr:nth-child(3) p:nth-child(2), table tr:nth-child(3) p:nth-child(3)
+{
+    color: #02a880;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+table tr:nth-child(3) p:last-child
+{
+    margin-bottom: 10px;
+}
+
+/*Forth row styling*/
+table tr:nth-child(4) .links 
+{
+    margin: 7px 0px 7px 0px;
+}
+
+table tr:nth-child(4) .links a
+{
+    color: #126aa9;
+}
+
+table tr:nth-child(4) .links a:hover
+{
+    color: red;
+}
+
+table tr:nth-child(4) p
+{
+    margin-bottom: 2px;
+}
+
+table tr:nth-child(4) td
+{
+    margin-bottom: 2px;
+    border-bottom: none;
+}
+
+/*Image bar 2*/
+#img_bar2
+{
+    background-image: url( "Waterfall.jpg");
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 100px 0px 100px;
+    color:white;
+}
+
+#img_bar2 .content
+{
+    float: right;
+    border: 10px solid white;
+    background-color: #fbb716;    
+    width: 500px;
+    padding: 20px;
+    margin: 130px 200px 0px 0px;
+}
+
+#img_bar2 h1
+{
+    font-family: Chairdrobe Medium;
+    font-size: 100px;
+    width: 70px;
+    font-weight: 300;
+    line-height: 90px;
+}
+
+#img_bar2 h1 span
+{
+    font-family: Chairdrobe Light;
+    font-weight: normal;
+}
+
+#img_bar2 a
+{
+    text-decoration: none;
+    color: white;
+    background-color: #f6821f;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    padding: 2px 90px 2px 5px;
+    margin: 40px auto 0px 10px;
+}
+
+#img_bar2 a:hover
+{
+    color: #f6821f;
+    background-color: white;
+}
+
+/*Image bar 3*/
+#img_bar3
+{
+    display: flex;    
+    margin: 20px 100px 0px 100px; 
+    color: white   
+}
+
+#img_bar3 .img
+{
+    background-image: url( "Cruise\ Ship.jpg");    
+    height: 400px;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 80%;
+    
+    
+}
+
+#img_bar3 .blue
+{
+    background-color: #235a8e; 
+    width: 20%;   
+    height: 400px; 
+}
+
+#img_bar3 .blue .content
+{
+    float: right;
+    width: 350px;
+    background-color: #235a8ed0;
+    height: 380px;
+    position: relative;
+    padding: 10px;    
+    padding-right: 200px;
+}
+
+#img_bar3 .blue .content h1
+{
+    font-family: Ordax Light;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+#img_bar3 .blue .content span
+{
+    font-size: 150px;
+    font-family: Chairdrobe;
+    margin: 1px 0px 29px 0px;
+    float: left;
+}
+
+#img_bar3 .blue .content a
+{
+    color: white;
+    background-color: #f6821f;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 2px 5px 2px 5px;
+    font-family: Calibri;
+    font-weight: bold;
+
+}
+
+#img_bar3 .blue .content a:hover
+{
+    background-color: white;
+    color: #f6821f;
+}
+
+#img_bar3 .blue .content .sub
+{
+    margin: 50px 0px auto 0px;
+}
+
+/*Adventure Styling*/
+#adventure
+{
+    margin: 60px 100px 0px 100px;
+}
+
+#adventure h1
+{
+    font-family: Rift;
+    color: #067e24;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#adventure .imgs
+{
+    width: 20%;
+    margin-right: 10px;
+} 
+
+#adventure .imgs:last-child
+{
+    margin-right: 0px;
+}
+
+#adventure .imgs img
+{
+    width: 100%;
+    height: 200px;
+}
+
+#adventure .imgs p
+{
+    color: #f98820;
+    font-family: Rift;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+#adventure .img_holder
+{
+    width: 100%;
+    display: flex;
+}
+
+/*Travel Tips Styling*/
+#travel_tips
+{
+    margin: 50px 100px 0px 100px;
+}
+
+#travel_tips h1
+{
+    font-family: Chairdrobe Light;
+    font-weight: bolder;
+    font-size: 75px;
+    margin-bottom: -40px;
+    letter-spacing: 5px;
+}
+
+#travel_tips .lists
+{
+    display: flex;
+}
+#travel_tips ul:nth-child(1)
+{
+    width: 38%;
+}
+
+#travel_tips ul:nth-child(2)
+{
+    width: 62%
+}
+
+#travel_tips ul li
+{
+    font-family: Mastro Sans Light;
+    list-style: none;
+    font-size: 19px;
+    line-height: 30px;
+    
+}
+
+#travel_tips ul li:before 
+{
+    content:"·";
+    font-size:20px;
+    vertical-align:middle;
+    line-height:20px;
+}
+
+/*Before Footer Stylin*/
+.b4_footer
+{
+    margin: 100px 100px 0px 100px;
+    display: flex;
+}
+
+.b4_footer img:first-of-type
+{
+    width: 400px
+}
+
+.b4_footer .follow .images
+{
+    display: flex;
+    width: 150px;
+}
+
+.b4_footer .follow img
+{
+    width: 30%;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.b4_footer .follow img:hover
+{
+    filter: invert(30%);
+    cursor: pointer;
+}
+
+.b4_footer .follow img:nth-child(3)
+{
+    border-radius: 50%;
+}
+
+.b4_footer .follow p
+{
+    font-family: Chairdrobe Light;
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: -4px 20px 0px 100px;
+}
+
+.b4_footer .follow
+{
+    display: flex;
+    height: 50px;
+    margin-top: 100px;
+}
+
+/*Footer Styling*/
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 50px 100px 30px 100px;
+    font-family: Calibri;
+    display: flex;
+}
+
+footer .Account
+{
+    width: 30%;
+}
+
+footer h1 
+{
+    font-weight: bolder;
+    font-size: 30px;
+    float: left;
+}
+
+footer  img
+{
+    height: 60px;
+    padding: 10px;
+    background-color: white;
+    margin: 37px 0px 20px 0px;
+}
+
+footer .Learn
+{
+    width: 30%;
+}
+
+footer ul li 
+{
+    clear: both;
+}
+
+footer ul li
+{
+    list-style: none;
+}
+
+footer ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer ul li a:hover
+{
+    text-decoration: underline;
+}
+
+footer .Visa
+{
+    width: 40%;
+}
+
+footer .Visa p
+{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
